@@ -13,9 +13,17 @@ app.use(express.json());
 
 app.use(sendRoute);
 
-app.get("/health", (req, res) => {
-  res.json({ status: "ok", message: "API client server is running" });
-});
+app.get("/", (req, res) => {
+  res.json({ 
+    message: "API Client Backend is running! 🚀",
+    endpoints: {
+     health: "/health",
+     sendRequest: "/api/send",
+     auth: "/auth/login or /auth/signup",
+     savedRequests: "/api/requests"
+       }
+     });
+   });
 
 app.use('/auth', authRoutes);
    app.use('/api/requests', requestsRoutes);

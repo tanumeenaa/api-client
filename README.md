@@ -54,10 +54,6 @@ It acts as a secure proxy to test external APIs, but its standout feature is the
 | `GET` | `/api/requests` | Get all saved requests for the logged-in user (Protected) |
 | `POST` | `/api/requests` | Save a new API request to the database (Protected) |
 
-| Login Screen | Main Dashboard | Error Explanation |
-| :---: | :---: | :---: |
-| *[Login Image]* | *[Dashboard Image]* | *[Error Image]* |
-
 ## 📦 Local Setup & Installation
 
 ### Prerequisites

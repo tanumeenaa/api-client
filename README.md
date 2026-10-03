@@ -102,5 +102,5 @@ npm run dev
 - LinkedIn: [https://www.linkedin.com/in/tanu-meena-512743289/]
 
 ---
-*Built with ❤️ to make API development easier for everyone.*
+*Built to make API development easier for everyone.*
 ```
